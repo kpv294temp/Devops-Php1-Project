@@ -42,7 +42,7 @@
     - name: Run Docker container using php-demo-website
       docker_container:
         name: php-demo-website
-        image: kaleemsony/my-php-website
+        image: karthick/my-php-website
         state: started
         recreate: yes
         detach: true
